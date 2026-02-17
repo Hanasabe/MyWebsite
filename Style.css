@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #8f9b7a;
+    color: #3f4a3c;
+    line-height: 1.6;
+}
+
+.header {
+    background: #f3efe6;
+    padding-bottom: 40px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 25px 0;
+    gap: 40px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #5a6650;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #4f5b46;
+}
+
+.hero {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.hero-images {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.hero-images img {
+    width: 100%;
+    border-radius: 12px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.hero-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    font-size: 15px;
+    color: #6b7564;
+}
+
+.btn {
+    background: #9aa87d;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.features {
+    background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover no-repeat;
+    padding: 80px 10%;
+    text-align: center;
+    color: white;
+}
+
+.features h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    background: rgba(255,255,255,0.9);
+    color: #3f4a3c;
+    padding: 25px;
+    border-radius: 12px;
+    width: 250px;
+}
+
+.card h3 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+}
+
+.tours {
+    background: #f3efe6;
+    padding: 70px 10%;
+}
+
+.tours h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+}
+
+.tour-card {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.tour-card img {
+    width: 50%;
+    border-radius: 12px;
+}
+
+.tour-info h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.btn-outline {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 20px;
+    border: 1px solid #6b7564;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #6b7564;
+    font-size: 14px;
+}
+
+.included {
+    background: #8f9b7a;
+    padding: 60px 10%;
+    text-align: center;
+    color: white;
+}
+
+.included h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+}
+
+.included-items {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.included-card {
+    width: 200px;
+}
+
+.included-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background: #4f5b46;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+}
